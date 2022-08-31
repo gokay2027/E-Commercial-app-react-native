@@ -25,3 +25,6 @@ the same database operation will be done again and again in code side. Maybe it 
 There are still two little errors in the app:
 - First one nested lists
 - Second one use-state, useEffect Hooks (In general react hooks should be exercised) 
+
+
+The design was taken from figma community and transformed into usable app.
