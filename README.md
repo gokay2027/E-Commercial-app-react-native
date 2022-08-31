@@ -11,7 +11,7 @@ It also has:
 - Firebase storage
 - Firebase real-time database
 
-In database 4 types of collections hold the data:
+In database 5 types of collections hold the data:
 - Users (Additional information about users and documents are created as users auth id)
 - Popular Products (In home page popular products and on sale products are changed in every week or day so there had to be a collection field for them)
 - On sale Products
