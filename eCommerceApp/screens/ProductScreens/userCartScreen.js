@@ -9,10 +9,7 @@ const windowHeight = Dimensions.get('window').height;
 const listData = [1, 2, 3, 4, 5, 6, 7]
 let tottalprice = 0;
 const CartScreen = ({ navigation }) => {
-
     const [sumPrice,setSumPrice] = useState(0);
-    
-
     useEffect(()=>{
         setSumPrice(0);
         for (let i = 0; i < cartArray.length; i++) {
@@ -21,6 +18,7 @@ const CartScreen = ({ navigation }) => {
             
         }
         setSumPrice(tottalprice);
+        tottalprice=0;
     },[])
     
     
